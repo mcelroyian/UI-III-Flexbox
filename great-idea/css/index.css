@@ -130,6 +130,7 @@ header {
 	padding-top: 5%;
 	padding-bottom: 8%;
 	border-bottom: 1px black solid;
+	display: flex;
 }
 
 header div {
@@ -161,6 +162,10 @@ h1 {
 .first, .second, .third {
 
 	margin: 5% auto;
+}
+
+.first, .second {
+	display: flex;
 }
 
 .first div {
