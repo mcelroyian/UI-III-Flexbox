@@ -65,9 +65,75 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-.container {
+/* ### Services Page ### */
 
+#services header {
+
+	display: block;
 }
+
+#services header, #services section {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#services header img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#services h1 {
+	text-align: start;
+	font-size: 250%;
+}
+
+#services .main {
+	margin: 5% auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+}
+
+#services .item {
+	width: 48%;
+	background-color: lightgrey;
+	padding: 15px;
+	border: 1px solid black;
+	margin-bottom: 20px;
+}
+
+#services .services-more {
+	display: flex;
+	justify-content: space-between;
+}
+.services-more div, .services-more img {
+	width: 48%;
+}
+
+#services footer {
+	display: flex;
+	justify-content: center;
+	align-content: flex-end;
+	margin-top: 10%;
+	margin-bottom: 0px;
+}
+
+#services button {
+	margin: 5px;
+}
+
+.services-more li {
+	list-style-type: circle;
+	line-height: 1.4;
+}
+
+.services-more ul {
+	margin-left: 20px;
+}
+
+/* ### Homepage/Main Styles ### */
 
 .header, .middle-img, .first, .second, .third, footer {
 	display: block;
@@ -102,7 +168,7 @@ nav div {
 }
 
 nav a, nav img {
-	align-content: center;
+	align-content: baseline;
 	justify-content: space-between;
 }
 
@@ -115,7 +181,7 @@ nav a {
 	justify-content: space-around;
 	width: 15%;
 	align-content: center;
-	/* padding: 1%; */
+	padding: 1%;
 }
 
 
@@ -144,7 +210,7 @@ header div img {
 	margin: 0 auto;
 }
 
-header button {
+button {
 	display: block;
 	padding: 2% 10%;
 	width: 40%;
