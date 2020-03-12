@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: space-between;
 }
-.services-more div, .services-more img {
+.services-more div {
 	width: 48%;
 }
 
@@ -270,3 +270,47 @@ footer p {
 	text-align: center;
 }
 
+
+/* ### MOBILE LAYOUT ### */
+
+@media only screen and (max-width: 600px) {
+	.container {
+
+	}
+
+	#services .item {
+		width: 100%;
+	}
+
+	.services-more {
+		flex-direction: column-reverse;
+	}
+
+	.services-more div {
+		width: 100%;
+		margin: 20px auto;
+	}
+
+	.first, .second {
+		flex-direction: column;
+	}
+
+	.first div, .second div, .home {
+		width: 100%;
+	}
+
+	.home {
+		display: flex;
+		flex-direction: column-reverse;
+		width: 100%;
+	}
+
+	.home div {
+		justify-content: flex-end;
+		align-content: center;
+		width: 80%;
+		margin: 5%;
+	}
+	
+
+  }
